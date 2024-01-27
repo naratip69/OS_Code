@@ -15,7 +15,7 @@ void on_alarm(int signal)
     /* activate alarm again */
     alarm(compute_period);
 }
-main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
     int i;
     if (argc != 3)
