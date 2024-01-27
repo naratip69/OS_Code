@@ -20,8 +20,10 @@ int main(int argc, char *argv[])
     int i;
     if (argc != 3)
     {
-        printf("Usage: infinite <compute-period><sleepperiod>\n");
-        exit(0);
+        printf("Enter compute period :\n");
+        scanf("%d", &compute_period);
+        printf("Enter sleep period :\n");
+        scanf("%d", &sleep_period);
     }
     else
     {
