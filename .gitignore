@@ -23,3 +23,4 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+act7/.vscode/settings.json
